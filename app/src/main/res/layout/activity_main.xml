@@ -6,69 +6,102 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/tv_type1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Typeface.createFromAsset"
         android:gravity="center_horizontal"
         android:padding="5dp"
+        android:text="Typeface.createFromAsset"
         android:textColor="#333"
-        android:textSize="18sp"
-        />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tv_type2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Typeface.createFromAsset"
         android:gravity="center_horizontal"
         android:padding="5dp"
+        android:text="Typeface.createFromAsset"
         android:textColor="#333"
-        android:textSize="18sp"
-        />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tv_type3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Typeface.createFromAsset"
         android:gravity="center_horizontal"
         android:padding="5dp"
+        android:text="Typeface.createFromAsset"
         android:textColor="#333"
-        android:textSize="18sp"
-        />
+        android:textSize="18sp" />
 
 
     <TextView
         android:id="@+id/tv_type4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Typeface.createFromAsset"
         android:gravity="center_horizontal"
         android:padding="5dp"
+        android:text="Typeface.createFromAsset"
         android:textColor="#333"
-        android:textSize="18sp"
-        />
+        android:textSize="18sp" />
+
     <TextView
         android:id="@+id/tv_type5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Typeface.createFromAsset"
         android:gravity="center_horizontal"
         android:padding="5dp"
+        android:text="Typeface.createFromAsset"
         android:textColor="#333"
-        android:textSize="18sp"
-        />
+        android:textSize="18sp" />
+
     <TextView
         android:id="@+id/tv_type6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Typeface.createFromAsset"
         android:gravity="center_horizontal"
         android:padding="5dp"
+        android:text="Typeface.createFromAsset"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <com.zj.typeface.CommonTextView
+        android:id="@+id/tv_type7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Typeface.createFromAsset"
         android:textColor="#333"
         android:textSize="18sp"
-        />
+        app:typeface="medium" />
+
+
+    <com.zj.typeface.CommonTextView
+        android:id="@+id/tv_type8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Typeface.createFromAsset"
+        android:textColor="#333"
+        android:textSize="18sp"
+        app:typeface="bold" />
+
+
+    <com.zj.typeface.CommonTextView
+        android:id="@+id/tv_type9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Typeface.createFromAsset"
+        android:textColor="#333"
+        android:textSize="18sp"
+        app:typeface="light" />
+
 
 </LinearLayout>

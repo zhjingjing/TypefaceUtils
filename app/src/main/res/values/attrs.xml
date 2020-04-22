@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonTextView">
+        <attr name="typeface" format="enum">
+            <enum name="bold" value="0" />
+            <enum name="medium" value="1" />
+            <enum name="heavy" value="2" />
+            <enum name="book" value="3" />
+            <enum name="light" value="4" />
+            <enum name="normal" value="5" />
+        </attr>
+    </declare-styleable>
+
+</resources>
